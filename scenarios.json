@@ -1,0 +1,105 @@
+{	
+	"environment" : {
+		"energy": {
+			"cost_per_reasoning_cycle": 4.5
+		}
+	},
+	"scenarios": [
+
+		{
+			"id": 1,
+			"ag_count":1,
+			"full_screen": "no",
+			"energy_category": "very_high", 
+			"obstacle_density": "none",
+			"height": 25,
+			"rs_count": 5,
+			"rs_dist": 5, 
+			"rs_types": [2],
+			"width": 25
+		},
+
+		{
+			"id": 2,
+			"ag_count":1,
+			"full_screen": "yes",
+			"energy_category": "high", 
+			"obstacle_density": "low",
+			"height": 30,
+			"rs_count": 3,
+			"rs_dist": 5, 
+			"rs_types": [2],
+			"width": 30
+		},
+
+		{
+			"id": 3,
+			"ag_count":2,
+			"full_screen": "yes",
+			"energy_category": "medium", 
+			"obstacle_density": "very_low",
+			"height": 40,
+			"rs_count": 3,
+			"rs_dist": 6, 
+			"rs_types": [2, 4],
+			"width": 40
+		},
+
+		{
+			"id": 4,
+			"ag_count":4,
+			"full_screen": "yes",
+			"energy_category": "medium", 
+			"obstacle_density": "low",
+			"height": 48,
+			"rs_count": 2,
+			"rs_dist": 10, 
+			"rs_types": [2, 4],
+			"width": 48
+		},
+
+
+		{
+			"id": 5,
+			"ag_count":6,
+			"full_screen": "yes",
+			"energy_category": "low", 
+			"obstacle_density": "low",
+			"type": "random",
+			"rs_types": [2, 4]
+		},
+		
+		{
+			"id": 0,
+			"agents": [
+				{ "x": 35, "y": 35 }
+			],
+			"base": {"x": 0, "y": 0 },
+			"energy_category": "75000",
+			"height": 48,
+			"obstacles": [
+				{"x": 41, "y": 40 }
+			],
+			"resources":[
+				{ "qty": 1, "type": 4, "x": 40, "y": 40 }
+			],
+			"width": 48
+		}
+		
+		
+	],
+	"meta": {
+		"version": "1.0.0",
+		"note": "This object is meant to supply additional information for the construction of new maps",
+		"energy_categories": [
+			"very_low", "low", "medium", "high", "very_high", "extreemely_high"
+		],
+		"obstacle_densities": [
+			"very_low", "low", "medium", "high", "very_high", "extreemely_high"
+		],
+		"resource_types": {
+			"gold": 2,
+			"diamond": 4
+		}
+	}
+}
