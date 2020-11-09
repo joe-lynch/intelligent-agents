@@ -50,7 +50,7 @@ This folder contains *rover.jar* which is where the whole environment of the sce
 This folder contains all the Java classes that the agents use, such as updating coordinates, performing A* search navigation, adding obstacle coordinates, etc.
 
 #### src/asl
-This folder contains the agents written in AgentSpeak. Look at these files to understand how AgentSpeak works, and how the agents move and communicate with eachother. It different to tradiitional programming so might have a learning curve, be sure to use the resources I have laid out below.
+This folder contains the agents written in AgentSpeak. Look at these files to understand how AgentSpeak works, and how the agents move and communicate with eachother. It different to tradiitional programming so might have a learning curve, be sure to use the resources I have laid out below. There are three agents to pick up gold, three agents to pick up diamonds, and a basic agent that is used during the first scenario.
 
 ### More information
 For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
