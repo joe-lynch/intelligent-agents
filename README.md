@@ -4,9 +4,10 @@ BDI Agent Programming with AgentSpeak. Agents act and communicate within an envi
 ## How to run
 The easiest way to run this project is to download the Jason IDE, and run the five scenarios within it.
 
-- Java JDK 1.8 or greater is required. [Download here](https://www.oracle.com/uk/java/technologies/javase-downloads.html).
-- Download the latest version of Jason here: https://sourceforge.net/projects/jason/.
+- [Java JDK](https://www.oracle.com/uk/java/technologies/javase-downloads.html) 1.8 or greater is required.
+- Download the latest version of [Jason](https://sourceforge.net/projects/jason/).
 - Extract the files to a directory of your choice.
-- Navigate to 
+- Navigate to the folder *jedit*.
+- Double click on *jedit.jar*
 
 
