@@ -1,5 +1,5 @@
 # intelligent-agents
-BDI Agent Programming with AgentSpeak. Agents act and communicate within an environment where they must collect resources and avoid obstacles. Implementation of A* search algorithm for navigation.
+BDI Agent Programming with AgentSpeak. Agents act and communicate within an environment where they must collect resources and avoid obstacles. Implementation of A* search algorithm for navigation. The agents have a set amount of energy, which decreases with every move they make. The aim is to collect all the resources in the map, before the energy runs out. The agents have no knowledge of a map, and just have the ability to move, scan a radius (to see obstacles and resources), collect, and deposit. The agents can be programmed to speak to eachother and share information. The agents are controlled through the code written in AgentSpeak, with the Java used to perform utility operations such as navigation, updating coordinates, and more.
 
 ## How to run
 The easiest way to run this project is to download the Jason IDE, and run the five scenarios within it.
@@ -25,16 +25,16 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 - A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
 
 #### Scenario 2
-- A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
+- There is again a single agent, but this time on the map there are obstacles. The agent uses an implementation of the A* search to move around the obstacles, it then marks where the obstacles are on its internal map. It should be noted that the agent starts with zero knowledge of the map and has to form that knowledge. Gold is again collected in a similar manner to scenario 1.
 
 #### Scenario 3
-- A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
+- There are now two agents, gold, diamonds and obstacles. Each agent has been assigned at instantiation whether it will collect gold or diamonds. If an agent scans a resource it cannot collect, it will share that knowledge by sending the coordinates to the other agent. The other agent will then react accordingly and collect the resource. The implementation is such that agents share a map and update it to help eachother understand where obstacles are.
 
 #### Scenario 4
-- A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
+- This is a more complex version of scenario 3. There are now four agents. The agents all communicate with eachother when they scan obstacles and resources. Now the closest appropriate agent will pick up a resouce that another agent has scanned, as well as the resources they scan and can pick up.
 
 #### Scenario 5
-- A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
+- There are six agents in this scenario. The approach is very similar to scenario 4. Improvements could be made to how the agents communicate to make for a more efficient implementation. However, all resources are collected before the agent's collective energy runs out.
 
 ### More information
 For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
