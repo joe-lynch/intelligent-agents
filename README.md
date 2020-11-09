@@ -9,11 +9,11 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 - Download the latest version of [Jason](https://sourceforge.net/projects/jason/).
 
 ### Set up
-- Extract the files to a directory of your choice.
-- Navigate to the folder *jedit* and double click on *jedit.jar*.
-- Within the IDE navigate to Plugins -> Plugins Options -> Jason.
-- Set the *jason.jar* location.
-- Set the directory *libs* as the Ant libs.
-- Set the *jade.jar* location.
+1. Extract the files to a directory of your choice.
+2. Navigate to the folder *jedit* and double click on *jedit.jar*.
+3. Within the IDE navigate to Plugins -> Plugins Options -> Jason.
+4. Set the *jason.jar* location.
+5. Set the directory *libs* as the Ant libs.
+6. Set the *jade.jar* location.
 
 
