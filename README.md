@@ -24,6 +24,8 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 #### Scenario 1
 - A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
 
+[s](images/scenario_1.png)
+
 #### Scenario 2
 - There is again a single agent, but this time on the map there are obstacles. The agent uses an implementation of the A* search to move around the obstacles, it then marks where the obstacles are on its internal map. It should be noted that the agent starts with zero knowledge of the map and has to form that knowledge. Gold is again collected in a similar manner to scenario 1.
 
