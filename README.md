@@ -29,14 +29,22 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 #### Scenario 2
 - There is again a single agent, but this time on the map there are obstacles. The agent uses an implementation of the A* search to move around the obstacles, it then marks where the obstacles are on its internal map. It should be noted that the agent starts with zero knowledge of the map and has to form that knowledge. Gold is again collected in a similar manner to scenario 1.
 
+[![scenario-2.png](images/scenario_2.png)](images/scenario_2.png)
+
 #### Scenario 3
 - There are now two agents, gold, diamonds and obstacles. Each agent has been assigned at instantiation whether it will collect gold or diamonds. If an agent scans a resource it cannot collect, it will share that knowledge by sending the coordinates to the other agent. The other agent will then react accordingly and collect the resource. The implementation is such that agents share a map and update it to help eachother understand where obstacles are.
+
+[![scenario-3.png](images/scenario_3.png)](images/scenario_3.png)
 
 #### Scenario 4
 - This is a more complex version of scenario 3. There are now four agents. The agents all communicate with eachother when they scan obstacles and resources. Now the closest appropriate agent will pick up a resouce that another agent has scanned, as well as the resources they scan and can pick up.
 
+[![scenario-4.png](images/scenario_4.png)](images/scenario_4.png)
+
 #### Scenario 5
 - There are six agents in this scenario. The approach is very similar to scenario 4. Improvements could be made to how the agents communicate to make for a more efficient implementation. However, all resources are collected before the agent's collective energy runs out.
+
+[![scenario-5.png](images/scenario_5.png)](images/scenario_5.png)
 
 ## File Descriptions
 
