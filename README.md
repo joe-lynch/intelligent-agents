@@ -11,9 +11,13 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 ### Set up
 1. Extract the files to a directory of your choice.
 2. Navigate to the folder *jedit* and double click on *jedit.jar*.
-3. Within the IDE navigate to Plugins -> Plugins Options -> Jason.
+3. Within the IDE navigate to *Plugins -> Plugins Options -> Jason*.
 4. Set the *jason.jar* location.
 5. Set the directory *libs* as the Ant libs.
 6. Set the *jade.jar* location.
+
+### Select a scenario
+- Navigate to *File -> Open* and choose one of the .mas2j files in the github repository such as *scenario_1.mas2j*.
+- 
 
 
