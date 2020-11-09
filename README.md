@@ -47,7 +47,7 @@ This is a JSON file that is used during the set up of the scenarios. Don't edit.
 This folder contains *rover.jar* which is where the whole environment of the scenarios is defined.
 
 #### aiLibs
-This folder contains all the Java classes that the agents use, such as 
+This folder contains all the Java classes that the agents use, such as updating coordinates, performing A* search navigation, adding obstacle coordinates, etc.
 
 ### More information
 For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
