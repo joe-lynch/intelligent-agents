@@ -37,7 +37,17 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 - There are six agents in this scenario. The approach is very similar to scenario 4. Improvements could be made to how the agents communicate to make for a more efficient implementation. However, all resources are collected before the agent's collective energy runs out.
 
 ### File Descriptions
+#### scenario_X.mas2j
+These are files that specify the scenario that should be run. Open this file in the Jason IDE to load the respective scenario. Don't edit.
 
+#### scenario.json
+This is a JSON file that is used during the set up of the scenarios. Don't edit.
+
+#### libs
+This folder contains *rover.jar* which is where the whole environment of the scenarios is defined.
+
+#### aiLibs
+This folder contains all the Java classes that the agents use, such as 
 
 ### More information
 For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
