@@ -21,7 +21,7 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 - Click the green arrow in the bottom right of the IDE to run the scenario.
 - Click the red exclamation mark adjacent to the green arrow, to terminate the scenario.
 
-### Troubleshooting
+### More information
 For more information about getting started with Jason see here: http://jason.sourceforge.net/mini-tutorial/getting-started/.
 
 For more information about BDI (Belief, Desire, Intention) programming [see here]()
