@@ -36,7 +36,7 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 #### Scenario 5
 - There are six agents in this scenario. The approach is very similar to scenario 4. Improvements could be made to how the agents communicate to make for a more efficient implementation. However, all resources are collected before the agent's collective energy runs out.
 
-### File Descriptions
+## File Descriptions
 #### scenario_X.mas2j
 These are files that specify the scenario that should be run. Open this file in the Jason IDE to load the respective scenario. Don't edit.
 
@@ -52,7 +52,7 @@ This folder contains all the Java classes that the agents use, such as updating 
 #### src/asl
 This folder contains the agents written in AgentSpeak. Look at these files to understand how AgentSpeak works, and how the agents move and communicate with eachother. It different to tradiitional programming so might have a learning curve, be sure to use the resources I have laid out below. There are three agents to pick up gold, three agents to pick up diamonds, and a basic agent that is used during the first scenario.
 
-### More information
+## More information
 For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
 
 For more information about BDI (Belief, Desire, Intention) programming [see here](https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model).
@@ -60,5 +60,3 @@ For more information about BDI (Belief, Desire, Intention) programming [see here
 Finally, for more information about AgentSpeak you may be interested in the book [Programming Multi-Agent Systems in AgentSpeak using Jason](https://dl.acm.org/doi/book/10.5555/1197104) by Rafael H. Bordini, Jomi Fred Hübner, and Michael Wooldridge, available [here](https://www.amazon.co.uk/Programming-Multi-agent-Systems-AgentSpeak-Technology/dp/0470029005/ref=sr_1_1?dchild=1&keywords=Programming+Multi-Agent+Systems+in+AgentSpeak+using+Jason&qid=1604889177&sr=8-1).
 
 Alternatively, see these slides: http://jason.sourceforge.net/jBook/SlidesJason.pdf.
-
-
