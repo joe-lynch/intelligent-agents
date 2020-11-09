@@ -21,6 +21,9 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 - Click the green arrow in the bottom right of the IDE to run the scenario.
 - Click the red exclamation mark adjacent to the green arrow, to terminate the scenario.
 
+1. Scenario 1
+- A single agent is programmed to rotate around the map, scanning for gold every 5 steps. When gold is found, the agent collects as much as it can, remember the location, and return to deposit the gold at the base. The agent then continually returns to the gold deposit until it is empty, it will then continue this process until all gold has been collected.
+
 ### More information
 For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
 
