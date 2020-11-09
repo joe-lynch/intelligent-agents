@@ -5,12 +5,12 @@ MAS sample_rover {
 	environment: rover.RoverWorld("mas2j_file=scenario_5.mas2j", "scenario=5")
 		
 	agents:
-		gold_agent_instance1 [capacity = 3, scan_range = 3, speed = 3, resource_type=Gold, mindinspector="gui(cycle, html)"] #1;
-		gold_agent_instance2 [capacity = 3, scan_range = 3, speed = 3, resource_type=Gold, mindinspector="gui(cycle, html)"] #1;
-		gold_agent_instance3 [capacity = 3, scan_range = 3, speed = 3, resource_type=Gold, mindinspector="gui(cycle, html)"] #1;
-		dd_agent_instance1 [capacity = 3, scan_range = 3, speed = 3, resource_type=Diamond, mindinspector="gui(cycle, html)"] #1;
-		dd_agent_instance2 [capacity = 3, scan_range = 3, speed = 3, resource_type=Diamond, mindinspector="gui(cycle, html)"] #1;
-		dd_agent_instance3 [capacity = 3, scan_range = 3, speed = 3, resource_type=Diamond, mindinspector="gui(cycle, html)"] #1;
+		gold_agent_instance1 [capacity = 3, scan_range = 3, speed = 3, resource_type=Gold] #1;
+		gold_agent_instance2 [capacity = 3, scan_range = 3, speed = 3, resource_type=Gold] #1;
+		gold_agent_instance3 [capacity = 3, scan_range = 3, speed = 3, resource_type=Gold] #1;
+		dd_agent_instance1 [capacity = 3, scan_range = 3, speed = 3, resource_type=Diamond] #1;
+		dd_agent_instance2 [capacity = 3, scan_range = 3, speed = 3, resource_type=Diamond] #1;
+		dd_agent_instance3 [capacity = 3, scan_range = 3, speed = 3, resource_type=Diamond] #1;
 			
 	aslSourcePath:
 		"src/asl";
