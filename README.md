@@ -22,11 +22,11 @@ The easiest way to run this project is to download the Jason IDE, and run the fi
 - Click the red exclamation mark adjacent to the green arrow, to terminate the scenario.
 
 ### More information
-For more information about getting started with Jason see here: http://jason.sourceforge.net/mini-tutorial/getting-started/.
+For more information about getting started with Jason [see here](http://jason.sourceforge.net/mini-tutorial/getting-started/).
 
 For more information about BDI (Belief, Desire, Intention) programming [see here](https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model).
 
-Finally, for more information about AgentSpeak you may be interested in the book [Programming Multi-Agent Systems in AgentSpeak using Jason](https://dl.acm.org/doi/book/10.5555/1197104) by Rafael H. Bordini, Jomi Fred Hübner, Michael Wooldridge, available [here](https://www.amazon.co.uk/Programming-Multi-agent-Systems-AgentSpeak-Technology/dp/0470029005/ref=sr_1_1?dchild=1&keywords=Programming+Multi-Agent+Systems+in+AgentSpeak+using+Jason&qid=1604889177&sr=8-1)./
+Finally, for more information about AgentSpeak you may be interested in the book [Programming Multi-Agent Systems in AgentSpeak using Jason](https://dl.acm.org/doi/book/10.5555/1197104) by Rafael H. Bordini, Jomi Fred Hübner, Michael Wooldridge, available [here](https://www.amazon.co.uk/Programming-Multi-agent-Systems-AgentSpeak-Technology/dp/0470029005/ref=sr_1_1?dchild=1&keywords=Programming+Multi-Agent+Systems+in+AgentSpeak+using+Jason&qid=1604889177&sr=8-1).\
 Alternatively, see these slides: http://jason.sourceforge.net/jBook/SlidesJason.pdf.
 
 
