@@ -14,10 +14,10 @@ public class update_current_position extends DefaultInternalAction
 {
 
     public Object execute(final TransitionSystem ts, final Unifier un, final Term[] args) throws Exception {
-    	try {   		
-    		
-    		/* updates the current position of the agent */
-    		
+        try {           
+            
+            /* updates the current position of the agent */
+            
             int x = (int)((NumberTerm)args[0]).solve();
             int y = (int)((NumberTerm)args[1]).solve();
             int val = (int)((NumberTerm)args[2]).solve();

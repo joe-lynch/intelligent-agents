@@ -11,13 +11,13 @@ import jason.asSemantics.DefaultInternalAction;
 public class get_position extends DefaultInternalAction
 {
     public Object execute(final TransitionSystem ts, final Unifier un, final Term[] args) throws Exception {
-    	
-    	/* gets the current position of the agent */
-    	
-    	int[] coords = Handler.getInstance(ts.getUserAgArch().getAgName()).get_position();
+        
+        /* gets the current position of the agent */
+        
+        int[] coords = Handler.getInstance(ts.getUserAgArch().getAgName()).get_position();
 
-    	final NumberTerm xVal = (NumberTerm)new NumberTermImpl((double)coords[0]);
-    	final NumberTerm yVal = (NumberTerm)new NumberTermImpl((double)coords[1]);
-    	return un.unifies((Term)xVal, args[0]) && un.unifies((Term)yVal, args[1]);
+        final NumberTerm xVal = (NumberTerm)new NumberTermImpl((double)coords[0]);
+        final NumberTerm yVal = (NumberTerm)new NumberTermImpl((double)coords[1]);
+        return un.unifies((Term)xVal, args[0]) && un.unifies((Term)yVal, args[1]);
     }
 }
